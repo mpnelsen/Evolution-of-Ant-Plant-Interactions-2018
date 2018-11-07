@@ -1,0 +1,7 @@
+#quick script to add outgroup sequences to ants
+
+for f in nuSSU nuLSU AbdA COI LR Wg EF1aF1 EF1aF2 ArgK CAD Top1 Ubx
+do
+	cat /PATH/"$f"/"$f"_Renamed_Parsed.fasta /PATH/"$f"_OUTS_ONLY_Parsed_Renamed.fasta > /Users/matthewnelsen/Desktop/ants.ncbi.06july2016/Formicidae/"$f"/"$f"_Renamed_wouts_Parsed.fasta
+done
+
