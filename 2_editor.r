@@ -1,5 +1,6 @@
 #This then edits the retrieved file and compares taxon names obtained from NCBI with those in a list derived from AntCat.  
 #Taxonomic discrepancies between the NCBI file and AntCat file were checked and names updated.
+#It then creates a separate file for each locus containing the accession numbers to retrieve from NCBI.
 
 #This checks which NCBI taxa retrieved are not in the AntCat list of taxa with geographic data
 new<-read.csv(file="Formicidae.combined.acc.nos.csv",stringsAsFactors=FALSE)
